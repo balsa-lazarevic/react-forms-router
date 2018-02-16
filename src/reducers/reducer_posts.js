@@ -8,7 +8,6 @@ export default function(state = {}, action) {
             return _.mapKeys(action.payload.data, 'id');
         default:
             console.log('default umjesto FETCH_POSTS');
-            console.log(action);
             return state;
     }
 } 
